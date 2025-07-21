@@ -2,6 +2,8 @@
 
 A lightweight Windows utility to toggle microphone mute state with a global hotkey or system tray control. Supports multiple audio devices and customizable configuration.
 
+This was made simply because the one in Discord is too bad, and personally sometimes fails me.
+
 <img width="256" height="256" alt="mute" src="https://github.com/user-attachments/assets/0d080615-93ad-4f32-b0f2-ecb29d62e720" />
 
 ## Features ✨
