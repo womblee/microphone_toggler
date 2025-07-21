@@ -22,7 +22,8 @@ A lightweight Windows utility to toggle microphone mute state with a global hotk
 4. Configure `mic_config.txt` in the same directory
    
 *Note: Requires Windows 10/11 (no additional dependencies needed)*
-*Default Hotkey: `CTRL + Shift + F1`
+
+*Default Hotkey: `CTRL + Shift + F1`*
 
 ## Configuration ⚙️
 
