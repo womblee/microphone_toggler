@@ -74,11 +74,15 @@ unmute_on_exit = true
 ## Custom Device Selection 🎤
 To see available audio devices, right-click tray icon → "List Audio Devices".
 
+To use a custom device:
+- Edit the line from `use_default_device = true` to `use_default_device = false` 
+- Edit the line `device_name = YOUR DEVICE NAME` in `mic_config.txt`
+  
 ## Building from Source 🛠️
 Requirements:
 - Visual Studio 2022
 
 Steps:
 - Clone repository
-- Open MicrophoneController.sln
-- Build Release x64
+- Open `microphone_toggler.sln`
+- Build `Release x64`
