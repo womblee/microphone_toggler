@@ -892,8 +892,8 @@ public:
 
         case ID_TRAY_RELOAD_CONFIG:
             reload_configuration();
-            MessageBox(nullptr, L"Configuration reloaded successfully!",
-                L"Config Reload", MB_OK | MB_ICONINFORMATION);
+            //MessageBox(nullptr, L"Configuration reloaded successfully!",
+                //L"Config Reload", MB_OK | MB_ICONINFORMATION);
             break;
 
         case ID_TRAY_EXIT:
@@ -991,7 +991,7 @@ public:
                 L"Hotkey Registration Failed",
                 MB_OK | MB_ICONWARNING);
         }
-
+        reload_configuration();
         // Message loop
         MSG msg;
         while (GetMessage(&msg, nullptr, 0, 0)) {
